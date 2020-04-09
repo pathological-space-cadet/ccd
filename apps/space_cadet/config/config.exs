@@ -13,10 +13,10 @@ config :space_cadet,
 # Configures the endpoint
 config :space_cadet, SpaceCadetWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "+n1RVzG6XV9pDgTR/zfA6iL/QD0Cr/8skxxTE+xwrVRCdMo2ZX+KSoL2a/vW9wfH",
+  secret_key_base: "fgbMXKlTJ/4V7njTJF/QOilxSMA/I0yhVpY5n3v6Qt8epjtFnkBPThq0iannrS/2",
   render_errors: [view: SpaceCadetWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: SpaceCadet.PubSub, adapter: Phoenix.PubSub.PG2],
-  live_view: [signing_salt: "jiMTZUn9"]
+  live_view: [signing_salt: "5Fj70uQD"]
 
 # Configures Elixir's Logger
 config :logger, :console,

@@ -7,7 +7,7 @@ defmodule SpaceCadetWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_space_cadet_key",
-    signing_salt: "kVnK0qdk"
+    signing_salt: "L9oqbgvF"
   ]
 
   socket "/socket", SpaceCadetWeb.UserSocket,

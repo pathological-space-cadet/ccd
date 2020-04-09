@@ -5,7 +5,7 @@ config :space_cadet, SpaceCadet.Repo,
   username: "postgres",
   password: "postgres",
   database: "space_cadet_dev",
-  hostname: "0.0.0.0",
+  hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
