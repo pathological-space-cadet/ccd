@@ -26,7 +26,7 @@ config :space_cadet, SpaceCadetWeb.Endpoint,
       "--mode",
       "development",
       "--watch-stdin",
-      cd: Path.expand("../assets", __DIR__)
+      cd: Path.expand("../apps/space_cadet/assets", __DIR__)
     ]
   ]
 
